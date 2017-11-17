@@ -1,0 +1,28 @@
+2017-11-14 18:11:45.085 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.auth.AuthHelper - 2017-11-14 18:11:45 getconfig,url:http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp query:null corpid:ding86a8a5b5a7b5872135c2f4657eb6378f appid:4404
+2017-11-14 18:11:45.096 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.auth.AuthHelper - http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp
+2017-11-14 18:11:45.099 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"73d3bef0b5eb3242a16482c47cc9ed47","begin_time":1510644478655}
+2017-11-14 18:11:46.115 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":40014,"errmsg":"不合法的access_token"}
+2017-11-14 18:11:46.118 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.util.HttpHelper - request url=https://oapi.dingtalk.com/service/get_corp_token?suite_access_token=188b3cfae885359b897aacaf1594775d,return value=
+2017-11-14 18:11:46.119 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.util.HttpHelper - {"errcode":40014,"errmsg":"不合法的access_token"}
+2017-11-14 18:11:46.132 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessToken:null
+2017-11-14 18:11:46.133 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.auth.AuthHelper - ticket:null
+2017-11-14 18:11:46.134 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.auth.AuthHelper - signature:null
+2017-11-14 18:11:46.135 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.auth.AuthHelper - nonceStr:abcdefg
+2017-11-14 18:11:46.135 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.auth.AuthHelper - timeStamp:1510654305
+2017-11-14 18:11:46.136 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.auth.AuthHelper - agentid:null
+2017-11-14 18:11:46.137 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.auth.AuthHelper - corpId:ding86a8a5b5a7b5872135c2f4657eb6378f
+2017-11-14 18:11:46.138 [http-apr-8080-exec-5] INFO  com.ray.dingtalk.isv.auth.AuthHelper - appId:4404
+2017-11-14 18:11:53.952 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.auth.AuthHelper - 2017-11-14 18:11:53 getconfig,url:http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp query:null corpid:ding86a8a5b5a7b5872135c2f4657eb6378f appid:4404
+2017-11-14 18:11:53.954 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.auth.AuthHelper - http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp
+2017-11-14 18:11:53.958 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"73d3bef0b5eb3242a16482c47cc9ed47","begin_time":1510644478655}
+2017-11-14 18:11:54.862 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":40014,"errmsg":"不合法的access_token"}
+2017-11-14 18:11:54.863 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.util.HttpHelper - request url=https://oapi.dingtalk.com/service/get_corp_token?suite_access_token=188b3cfae885359b897aacaf1594775d,return value=
+2017-11-14 18:11:54.864 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.util.HttpHelper - {"errcode":40014,"errmsg":"不合法的access_token"}
+2017-11-14 18:11:54.870 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessToken:null
+2017-11-14 18:11:54.871 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.auth.AuthHelper - ticket:null
+2017-11-14 18:11:54.871 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.auth.AuthHelper - signature:null
+2017-11-14 18:11:54.872 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.auth.AuthHelper - nonceStr:abcdefg
+2017-11-14 18:11:54.873 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.auth.AuthHelper - timeStamp:1510654313
+2017-11-14 18:11:54.874 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.auth.AuthHelper - agentid:null
+2017-11-14 18:11:54.875 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.auth.AuthHelper - corpId:ding86a8a5b5a7b5872135c2f4657eb6378f
+2017-11-14 18:11:54.876 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.auth.AuthHelper - appId:4404

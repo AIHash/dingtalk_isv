@@ -1,0 +1,1 @@
+2017-11-14 16:51:41.331 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"73d3bef0b5eb3242a16482c47cc9ed47","begin_time":1510644478655}

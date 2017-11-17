@@ -1,0 +1,5 @@
+2017-11-15 09:47:46.591 [Thread-17] ERROR com.ray.dingtalk.isv.auth.thread.TokenRunnable - {}
+java.lang.NullPointerException
+	at com.ray.dingtalk.isv.auth.AuthHelper.getAccessToken(AuthHelper.java:65) ~[classes/:?]
+	at com.ray.dingtalk.isv.auth.thread.TokenRunnable.run(TokenRunnable.java:23) [classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]

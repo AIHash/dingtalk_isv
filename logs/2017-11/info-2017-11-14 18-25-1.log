@@ -1,0 +1,6 @@
+2017-11-14 18:25:19.775 [main] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"73d3bef0b5eb3242a16482c47cc9ed47","begin_time":1510644478655}
+2017-11-14 18:25:19.833 [main] INFO  com.ray.dingtalk.isv.auth.AuthHelper - 188b3cfae885359b897aacaf1594775d
+2017-11-14 18:25:19.833 [main] INFO  com.ray.dingtalk.isv.auth.AuthHelper - oPox4ZCuES1drkGCse-93tw-DNnvLO9y6t-2BVM6DEsRNobibF4WIj9SeOgzavaG
+2017-11-14 18:25:22.594 [main] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":40014,"errmsg":"不合法的access_token"}
+2017-11-14 18:25:22.595 [main] INFO  com.ray.dingtalk.isv.util.HttpHelper - request url=https://oapi.dingtalk.com/service/get_corp_token?suite_access_token=188b3cfae885359b897aacaf1594775d,return value=
+2017-11-14 18:25:22.596 [main] INFO  com.ray.dingtalk.isv.util.HttpHelper - {"errcode":40014,"errmsg":"不合法的access_token"}

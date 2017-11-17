@@ -1,0 +1,2 @@
+2017-11-15 09:59:55.629 [main] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"5d268164302c3b33bef5557b7e911d29","begin_time":1510710589346}
+2017-11-15 09:59:55.668 [main] INFO  com.ray.dingtalk.isv.auth.AuthHelperTest - 5d268164302c3b33bef5557b7e911d29

@@ -1,0 +1,16 @@
+2017-11-16 16:22:16.227 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainText:{"TimeStamp":"1510820534398","SuiteTicket":"ZjV6xTaf4gGwsvZq3bYzwQG9K6bGOS1CVODj7o45YZOTq2quHR9FUMxIBK0sa97diXE82PP7Xjo7sjqnPqqtI5","EventType":"suite_ticket","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-16 16:22:16.233 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - 22222222222
+2017-11-16 16:22:17.177 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"errmsg":"ok","suite_access_token":"b93cde646ddd3c6f81802b7b22611d80","expires_in":7200}
+2017-11-16 16:22:17.178 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.service.IsvService - {"errcode":0,"errmsg":"ok","suite_access_token":"b93cde646ddd3c6f81802b7b22611d80","expires_in":7200}
+2017-11-16 16:22:17.179 [http-apr-8080-exec-2] INFO  com.ray.dingtalk.isv.util.FileUtils - path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\ticket.txt abs path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\ticket.txt
+2017-11-16 16:22:52.557 [Thread-17] INFO  com.ray.dingtalk.isv.auth.thread.TokenRunnable - 定时获取accessToken和jsapiTicket------------------------
+2017-11-16 16:22:52.561 [Thread-17] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"5d268164302c3b33bef5557b7e911d29","begin_time":1510710589346}
+2017-11-16 16:22:52.563 [Thread-17] INFO  com.ray.dingtalk.isv.auth.AuthHelper - b93cde646ddd3c6f81802b7b22611d80
+2017-11-16 16:22:52.564 [Thread-17] INFO  com.ray.dingtalk.isv.auth.AuthHelper - OZepZ23yCaK8xy9hlDjZfNB_pSHIptC2Kl7pconx_i3ap1LeLCypPOfCb0v3l8nF
+2017-11-16 16:22:53.463 [Thread-17] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"access_token":"7178316f36e3357d8b36d6d62fcce7d2","errmsg":"ok","expires_in":7200}
+2017-11-16 16:22:53.464 [Thread-17] INFO  com.ray.dingtalk.isv.service.IsvService - {"errcode":0,"access_token":"7178316f36e3357d8b36d6d62fcce7d2","errmsg":"ok","expires_in":7200}
+2017-11-16 16:22:53.464 [Thread-17] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessToken:7178316f36e3357d8b36d6d62fcce7d2
+2017-11-16 16:22:53.465 [Thread-17] INFO  com.ray.dingtalk.isv.util.FileUtils - path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\accesstoken.txt abs path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\accesstoken.txt
+2017-11-16 16:22:54.366 [Thread-17] INFO  com.ray.dingtalk.isv.util.HttpHelper - GET请求结果：{"errcode":0,"errmsg":"ok","ticket":"VFMGxvSxEqui5PXAOQsElUTL2IslmGcy0PdYUfOrhZWoXQJ110KkvdJVoQDHpBREAxFTJ3RF8ak0WvuD8o5H7A","expires_in":7200}
+2017-11-16 16:22:54.367 [Thread-17] INFO  com.ray.dingtalk.isv.auth.AuthHelper - jsTicket:VFMGxvSxEqui5PXAOQsElUTL2IslmGcy0PdYUfOrhZWoXQJ110KkvdJVoQDHpBREAxFTJ3RF8ak0WvuD8o5H7A
+2017-11-16 16:22:54.368 [Thread-17] INFO  com.ray.dingtalk.isv.util.FileUtils - path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\jsticket.txt abs path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\jsticket.txt

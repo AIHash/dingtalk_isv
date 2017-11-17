@@ -1,0 +1,5 @@
+2017-11-15 09:46:43.442 [http-apr-8080-exec-7] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainText:{"TimeStamp":"1510710402212","SuiteTicket":"cWqkdRVQFbEQ3ZaoOO6HYHTte4yZ9QVY6kcNCotm0rkIWdWXruGOk6t9IFPfqis1tExtmDjdPeRcqT5JwPe7UU","EventType":"suite_ticket","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-15 09:46:45.493 [http-apr-8080-exec-7] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"errmsg":"ok","suite_access_token":"e331fb5e452f3e8aae5a59a7b154e5f7","expires_in":7200}
+2017-11-15 09:46:45.494 [http-apr-8080-exec-7] INFO  com.ray.dingtalk.isv.service.IsvService - {"errcode":0,"errmsg":"ok","suite_access_token":"e331fb5e452f3e8aae5a59a7b154e5f7","expires_in":7200}
+2017-11-15 09:46:45.494 [http-apr-8080-exec-7] INFO  com.ray.dingtalk.isv.util.FileUtils - path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\ticket.txt abs path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\ticket.txt
+2017-11-15 09:46:46.590 [Thread-17] INFO  com.ray.dingtalk.isv.auth.thread.TokenRunnable - 定时获取accessToken和jsapiTicket------------------------

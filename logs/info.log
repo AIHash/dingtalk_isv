@@ -1,0 +1,36 @@
+2017-11-16 16:23:29.573 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.auth.AuthHelper - 2017-11-16 16:23:29 getconfig,url:http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp query:null corpid:ding86a8a5b5a7b5872135c2f4657eb6378f appid:4404
+2017-11-16 16:23:29.579 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.auth.AuthHelper - http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp
+2017-11-16 16:23:29.580 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"7178316f36e3357d8b36d6d62fcce7d2","begin_time":1510820572558}
+2017-11-16 16:23:30.572 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"auth_user_info":{"userId":"manager8568"},"auth_corp_info":{"corpid":"ding86a8a5b5a7b5872135c2f4657eb6378f","auth_level":0,"invite_url":"https://t.dingtalk.com/invite/index?code=6ffbefc794&inviterUid=57E3862F384D4CE491E7FE61FE0552A6","auth_channel":"","auth_channel_type":"","industry":"","invite_code":"","is_authenticated":false,"corp_name":"ISV测试企业","license_code":"","corp_logo_url":""},"errmsg":"ok","channel_auth_info":{"channelAgent":[]},"auth_info":{"agent":[{"agentid":136196871,"agent_name":"ISV测试","logo_url":"http://static.dingtalk.com/media/lADPBY0V4qQVf9zNB4DNBDg_1080_1920.jpg","appid":4404}]},"auth_market_info":{}}
+2017-11-16 16:23:30.580 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessToken:7178316f36e3357d8b36d6d62fcce7d2
+2017-11-16 16:23:30.581 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.auth.AuthHelper - ticket:VFMGxvSxEqui5PXAOQsElUTL2IslmGcy0PdYUfOrhZWoXQJ110KkvdJVoQDHpBREAxFTJ3RF8ak0WvuD8o5H7A
+2017-11-16 16:23:30.582 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.auth.AuthHelper - signature:b48aaa60e33481e710f48ca8162911ba929f85d3
+2017-11-16 16:23:30.583 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.auth.AuthHelper - nonceStr:abcdefg
+2017-11-16 16:23:30.583 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.auth.AuthHelper - timeStamp:1510820609
+2017-11-16 16:23:30.584 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.auth.AuthHelper - agentid:136196871
+2017-11-16 16:23:30.585 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.auth.AuthHelper - corpId:ding86a8a5b5a7b5872135c2f4657eb6378f
+2017-11-16 16:23:30.585 [http-apr-8080-exec-4] INFO  com.ray.dingtalk.isv.auth.AuthHelper - appId:4404
+2017-11-16 16:23:41.534 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.auth.AuthHelper - 2017-11-16 16:23:41 getconfig,url:http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp query:null corpid:ding86a8a5b5a7b5872135c2f4657eb6378f appid:4404
+2017-11-16 16:23:41.535 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.auth.AuthHelper - http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp
+2017-11-16 16:23:41.538 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"7178316f36e3357d8b36d6d62fcce7d2","begin_time":1510820572558}
+2017-11-16 16:23:42.474 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"auth_user_info":{"userId":"manager8568"},"auth_corp_info":{"corpid":"ding86a8a5b5a7b5872135c2f4657eb6378f","auth_level":0,"invite_url":"https://t.dingtalk.com/invite/index?code=6ffbefc794&inviterUid=57E3862F384D4CE491E7FE61FE0552A6","auth_channel":"","auth_channel_type":"","industry":"","invite_code":"","is_authenticated":false,"corp_name":"ISV测试企业","license_code":"","corp_logo_url":""},"errmsg":"ok","channel_auth_info":{"channelAgent":[]},"auth_info":{"agent":[{"agentid":136196871,"agent_name":"ISV测试","logo_url":"http://static.dingtalk.com/media/lADPBY0V4qQVf9zNB4DNBDg_1080_1920.jpg","appid":4404}]},"auth_market_info":{}}
+2017-11-16 16:23:42.475 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessToken:7178316f36e3357d8b36d6d62fcce7d2
+2017-11-16 16:23:42.475 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.auth.AuthHelper - ticket:VFMGxvSxEqui5PXAOQsElUTL2IslmGcy0PdYUfOrhZWoXQJ110KkvdJVoQDHpBREAxFTJ3RF8ak0WvuD8o5H7A
+2017-11-16 16:23:42.475 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.auth.AuthHelper - signature:3dcc5ae3c1bc016d51b3f5ebb590aa667b95ef99
+2017-11-16 16:23:42.475 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.auth.AuthHelper - nonceStr:abcdefg
+2017-11-16 16:23:42.475 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.auth.AuthHelper - timeStamp:1510820621
+2017-11-16 16:23:42.475 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.auth.AuthHelper - agentid:136196871
+2017-11-16 16:23:42.475 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.auth.AuthHelper - corpId:ding86a8a5b5a7b5872135c2f4657eb6378f
+2017-11-16 16:23:42.476 [http-apr-8080-exec-10] INFO  com.ray.dingtalk.isv.auth.AuthHelper - appId:4404
+2017-11-16 16:23:46.897 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - 2017-11-16 16:23:46 getconfig,url:http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp query:null corpid:ding86a8a5b5a7b5872135c2f4657eb6378f appid:4404
+2017-11-16 16:23:46.901 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp
+2017-11-16 16:23:46.904 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"7178316f36e3357d8b36d6d62fcce7d2","begin_time":1510820572558}
+2017-11-16 16:23:47.879 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"auth_user_info":{"userId":"manager8568"},"auth_corp_info":{"corpid":"ding86a8a5b5a7b5872135c2f4657eb6378f","auth_level":0,"invite_url":"https://t.dingtalk.com/invite/index?code=6ffbefc794&inviterUid=57E3862F384D4CE491E7FE61FE0552A6","auth_channel":"","auth_channel_type":"","industry":"","invite_code":"","is_authenticated":false,"corp_name":"ISV测试企业","license_code":"","corp_logo_url":""},"errmsg":"ok","channel_auth_info":{"channelAgent":[]},"auth_info":{"agent":[{"agentid":136196871,"agent_name":"ISV测试","logo_url":"http://static.dingtalk.com/media/lADPBY0V4qQVf9zNB4DNBDg_1080_1920.jpg","appid":4404}]},"auth_market_info":{}}
+2017-11-16 16:23:47.881 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessToken:7178316f36e3357d8b36d6d62fcce7d2
+2017-11-16 16:23:47.882 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - ticket:VFMGxvSxEqui5PXAOQsElUTL2IslmGcy0PdYUfOrhZWoXQJ110KkvdJVoQDHpBREAxFTJ3RF8ak0WvuD8o5H7A
+2017-11-16 16:23:47.883 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - signature:d26aa47131cb10a8f27a48721c4e89a7f0b80233
+2017-11-16 16:23:47.884 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - nonceStr:abcdefg
+2017-11-16 16:23:47.885 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - timeStamp:1510820626
+2017-11-16 16:23:47.885 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - agentid:136196871
+2017-11-16 16:23:47.886 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - corpId:ding86a8a5b5a7b5872135c2f4657eb6378f
+2017-11-16 16:23:47.887 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - appId:4404

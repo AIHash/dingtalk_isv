@@ -1,0 +1,12 @@
+2017-11-14 16:56:41.524 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - 2017-11-14 16:56:41 getconfig,url:http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp query:null corpid:ding86a8a5b5a7b5872135c2f4657eb6378f appid:4404
+2017-11-14 16:56:41.529 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - http://rayner.nat300.top/dingtalk_isv/IDAuthentication.jsp
+2017-11-14 16:56:41.530 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:{"access_token":"73d3bef0b5eb3242a16482c47cc9ed47","begin_time":1510644478655}
+2017-11-14 16:56:42.530 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"auth_user_info":{"userId":"manager8568"},"auth_corp_info":{"corpid":"ding86a8a5b5a7b5872135c2f4657eb6378f","auth_level":0,"invite_url":"https://t.dingtalk.com/invite/index?code=6ffbefc794&inviterUid=57E3862F384D4CE491E7FE61FE0552A6","auth_channel":"","auth_channel_type":"","industry":"","invite_code":"","is_authenticated":false,"corp_name":"ISV测试企业","license_code":"","corp_logo_url":""},"errmsg":"ok","channel_auth_info":{"channelAgent":[]},"auth_info":{"agent":[{"agentid":136115388,"agent_name":"ISV测试","logo_url":"http://static.dingtalk.com/media/lADPBY0V4qQVf9zNB4DNBDg_1080_1920.jpg","appid":4404}]},"auth_market_info":{}}
+2017-11-14 16:56:42.534 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessToken:73d3bef0b5eb3242a16482c47cc9ed47
+2017-11-14 16:56:42.534 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - ticket:WH59Kt3UxqdUGUXdxnCI4LdzlNS46n9Jkf13utcwtXebcACp61FOWoXYspQ5nTcXrglJHk6jmOdSoaJ2xQsBPE
+2017-11-14 16:56:42.535 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - signature:e7613a995749bf382e1c237f0fbe89ba1f198bde
+2017-11-14 16:56:42.535 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - nonceStr:abcdefg
+2017-11-14 16:56:42.536 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - timeStamp:1510649801
+2017-11-14 16:56:42.537 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - agentid:136115388
+2017-11-14 16:56:42.537 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - corpId:ding86a8a5b5a7b5872135c2f4657eb6378f
+2017-11-14 16:56:42.538 [http-apr-8080-exec-8] INFO  com.ray.dingtalk.isv.auth.AuthHelper - appId:4404

@@ -1,0 +1,40 @@
+2017-11-15 09:49:37.645 [http-apr-8080-exec-7] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainText:{"TimeStamp":"1510710576126","AuthCorpId":"ding86a8a5b5a7b5872135c2f4657eb6378f","EventType":"suite_relieve","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-15 09:49:46.613 [Thread-17] INFO  com.ray.dingtalk.isv.auth.thread.TokenRunnable - 定时获取accessToken和jsapiTicket------------------------
+2017-11-15 09:49:46.624 [Thread-17] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:null
+2017-11-15 09:49:46.626 [Thread-17] INFO  com.ray.dingtalk.isv.auth.AuthHelper - 4a93cf16fc733aabb00b58c8c42def9e
+2017-11-15 09:49:46.626 [Thread-17] INFO  com.ray.dingtalk.isv.auth.AuthHelper - a0NPZVbuEzvfAfJ5b1guM8KBRF6_VBi-r_K4u8x9H52T2ODQE0N_-mat0Q3evdbx
+2017-11-15 09:49:47.421 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainText:{"TimeStamp":"1510710586307","AuthCode":"507e60cddcbc3234ae4adfe124084375","EventType":"tmp_auth_code","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-15 09:49:47.422 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - Env.authCode:507e60cddcbc3234ae4adfe124084375
+2017-11-15 09:49:47.422 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainTextJson:{"AuthCode":"507e60cddcbc3234ae4adfe124084375","EventType":"tmp_auth_code","TimeStamp":"1510710586307","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-15 09:49:47.682 [Thread-17] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":40079,"errmsg":"不存在的授权信息"}
+2017-11-15 09:49:47.683 [Thread-17] INFO  com.ray.dingtalk.isv.util.HttpHelper - request url=https://oapi.dingtalk.com/service/get_corp_token?suite_access_token=4a93cf16fc733aabb00b58c8c42def9e,return value=
+2017-11-15 09:49:47.684 [Thread-17] INFO  com.ray.dingtalk.isv.util.HttpHelper - {"errcode":40079,"errmsg":"不存在的授权信息"}
+2017-11-15 09:49:48.340 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"errmsg":"ok","auth_corp_info":{"corpid":"ding86a8a5b5a7b5872135c2f4657eb6378f","corp_name":"ISV测试企业"},"permanent_code":"lQOOP7WZsYNc_gaSGprWU-lGAVNZ2DcjzDWqEmAU0O7-GvFip2u1Cucfx1itLDzo"}
+2017-11-15 09:49:48.341 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.service.IsvService - {"errcode":0,"auth_corp_info":{"corpid":"ding86a8a5b5a7b5872135c2f4657eb6378f","corp_name":"ISV测试企业"},"errmsg":"ok","permanent_code":"lQOOP7WZsYNc_gaSGprWU-lGAVNZ2DcjzDWqEmAU0O7-GvFip2u1Cucfx1itLDzo"}
+2017-11-15 09:49:48.341 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - permanentCodeAndCorpId:{"errcode":0,"auth_corp_info":{"corpid":"ding86a8a5b5a7b5872135c2f4657eb6378f","corp_name":"ISV测试企业"},"errmsg":"ok","permanent_code":"lQOOP7WZsYNc_gaSGprWU-lGAVNZ2DcjzDWqEmAU0O7-GvFip2u1Cucfx1itLDzo"}
+2017-11-15 09:49:48.341 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.util.FileUtils - path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\permanentcode.txt abs path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\permanentcode.txt
+2017-11-15 09:49:49.343 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"errmsg":"ok"}
+2017-11-15 09:49:49.345 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.service.IsvService - {"errcode":0,"errmsg":"ok"}
+2017-11-15 09:49:49.346 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessTokenValue:null
+2017-11-15 09:49:49.351 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.auth.AuthHelper - 4a93cf16fc733aabb00b58c8c42def9e
+2017-11-15 09:49:49.352 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.auth.AuthHelper - lQOOP7WZsYNc_gaSGprWU-lGAVNZ2DcjzDWqEmAU0O7-GvFip2u1Cucfx1itLDzo
+2017-11-15 09:49:49.974 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainText:{"TimeStamp":"1510710586307","AuthCode":"507e60cddcbc3234ae4adfe124084375","EventType":"tmp_auth_code","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-15 09:49:49.976 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - Env.authCode:507e60cddcbc3234ae4adfe124084375
+2017-11-15 09:49:49.977 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainTextJson:{"AuthCode":"507e60cddcbc3234ae4adfe124084375","EventType":"tmp_auth_code","TimeStamp":"1510710586307","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-15 09:49:50.252 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":0,"access_token":"5d268164302c3b33bef5557b7e911d29","errmsg":"ok","expires_in":7200}
+2017-11-15 09:49:50.253 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.service.IsvService - {"errcode":0,"access_token":"5d268164302c3b33bef5557b7e911d29","errmsg":"ok","expires_in":7200}
+2017-11-15 09:49:50.254 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.auth.AuthHelper - accessToken:5d268164302c3b33bef5557b7e911d29
+2017-11-15 09:49:50.256 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.util.FileUtils - path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\accesstoken.txt abs path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\accesstoken.txt
+2017-11-15 09:49:50.915 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":40078,"errmsg":"不存在的临时授权码"}
+2017-11-15 09:49:50.916 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.util.HttpHelper - request url=https://oapi.dingtalk.com/service/get_permanent_code?suite_access_token=4a93cf16fc733aabb00b58c8c42def9e,return value=
+2017-11-15 09:49:50.917 [http-apr-8080-exec-1] INFO  com.ray.dingtalk.isv.util.HttpHelper - {"errcode":40078,"errmsg":"不存在的临时授权码"}
+2017-11-15 09:49:51.056 [http-apr-8080-exec-3] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainText:{"TimeStamp":"1510710586307","AuthCode":"507e60cddcbc3234ae4adfe124084375","EventType":"tmp_auth_code","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-15 09:49:51.057 [http-apr-8080-exec-3] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - Env.authCode:507e60cddcbc3234ae4adfe124084375
+2017-11-15 09:49:51.057 [http-apr-8080-exec-3] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - plainTextJson:{"AuthCode":"507e60cddcbc3234ae4adfe124084375","EventType":"tmp_auth_code","TimeStamp":"1510710586307","SuiteKey":"suitenqeusfld8dqkseqs"}
+2017-11-15 09:49:51.163 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.util.HttpHelper - GET请求结果：{"errcode":0,"errmsg":"ok","ticket":"bowg8fROn69NwggSwtserLOKQgw1P47YKcx4In3oiLPZSsriHEG6WU8gqB2xkYURmdmGG1N2EYGilycTuYcrCo","expires_in":7200}
+2017-11-15 09:49:51.164 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.auth.AuthHelper - jsTicket:bowg8fROn69NwggSwtserLOKQgw1P47YKcx4In3oiLPZSsriHEG6WU8gqB2xkYURmdmGG1N2EYGilycTuYcrCo
+2017-11-15 09:49:51.164 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.util.FileUtils - path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\jsticket.txt abs path:G:\WorkSpace\Me\WeiXin_GZ_dev\dingtalk_isv\src\main\webapp\Permanent_Data\jsticket.txt
+2017-11-15 09:49:51.171 [http-apr-8080-exec-9] INFO  com.ray.dingtalk.isv.controller.IsvReceiveServlet - 授权套件成功————————————————————————————————————————————
+2017-11-15 09:49:52.015 [http-apr-8080-exec-3] INFO  com.ray.dingtalk.isv.util.HttpHelper - POST请求结果：{"errcode":40078,"errmsg":"不存在的临时授权码"}
+2017-11-15 09:49:52.015 [http-apr-8080-exec-3] INFO  com.ray.dingtalk.isv.util.HttpHelper - request url=https://oapi.dingtalk.com/service/get_permanent_code?suite_access_token=4a93cf16fc733aabb00b58c8c42def9e,return value=
+2017-11-15 09:49:52.016 [http-apr-8080-exec-3] INFO  com.ray.dingtalk.isv.util.HttpHelper - {"errcode":40078,"errmsg":"不存在的临时授权码"}
